@@ -10,10 +10,10 @@ public class DemoSevice {
     @Autowired
     DemoServiceModel demoServiceModel;
 
-    public DemoServiceModel getDemoService(Integer resourceid){
-        demoServiceModel.setResourceid(resourceid);
-        demoServiceModel.setFirstname("First");
-        demoServiceModel.setLastname("Last");
+    public DemoServiceModel getDemoService(){
+        demoServiceModel.setResourceid(12345);
+        demoServiceModel.setFirstname("-");
+        demoServiceModel.setLastname("-");
         demoServiceModel.setPhone("123 675 3456");
         demoServiceModel.setAddress("#250 South Street");
         demoServiceModel.setCity("Boston");

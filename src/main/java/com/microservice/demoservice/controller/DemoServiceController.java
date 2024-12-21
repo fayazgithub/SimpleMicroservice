@@ -21,7 +21,7 @@ public class DemoServiceController {
 
     @GetMapping(value = "/demoservice")
     public DemoServiceModel getDemoService() {
-            demoServiceModel = demoSevice.getDemoService(123);
+            demoServiceModel = demoSevice.getDemoService();
             return demoServiceModel;
     }
 
